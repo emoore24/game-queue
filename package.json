@@ -1,0 +1,23 @@
+{
+  "name": "game-queue",
+  "version": "0.0.1",
+  "description": "Game-agnostic queue",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emoore24/game-queue.git"
+  },
+  "author": "Evan Moore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emoore24/game-queue/issues"
+  },
+  "homepage": "https://github.com/emoore24/game-queue"
+}
