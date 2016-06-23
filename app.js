@@ -23,10 +23,10 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function(req, res) {
-   res.render('index');
+   res.render('index.html');
 });
 
-app.get('/room/:roomId', roomCtrl.getRoom);
+//app.get('/room/:roomId', roomCtrl.getRoom);
 
 
 app.listen(3000, function() {
