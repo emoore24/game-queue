@@ -22,11 +22,11 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/', function(req, res) {
+app.get('/', (req, res) => {
    res.render('index.html');
 });
 
-//app.get('/room/:roomId', roomCtrl.getRoom);
+app.get('/room/:roomId', roomCtrl.getRoom);
 
 
 app.listen(3000, function() {
